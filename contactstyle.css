@@ -1,0 +1,66 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(85, 107, 47);
+}
+
+ul li {
+  float:left;
+  font-size:20px;
+}
+
+ul li a {
+  display: block;
+  color: rgb(255,248,220);
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #ffffff44;
+}
+
+
+
+
+body{
+  margin:0;
+  padding:0;
+  background-image: url("https://images.pexels.com/photos/1603901/pexels-photo-1603901.jpeg?cs=srgb&dl=pexels-rajesh-tp-749235-1603901.jpg&fm=jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  margin-bottom:0;
+  height:100vh;
+  width:100%;
+}
+#contact_form{
+    background-color:rgb(85, 107, 47);
+    margin-top:100px;
+    margin-left:200px;
+    margin-right:200px;
+    color:rgb(255,248,220);
+    font-size:20px;
+    border-radius:5px;
+    padding:10px 0px 20px 10px;
+}
+input{
+    width:300px;
+    height:30px;
+    background-color:antiquewhite;
+    border-radius:5px;
+}
+input[type="submit"]{
+    width:80px;
+    margin-top:10px;
+    
+}
+.map-box{
+    width:300px;
+    height:250px;
+    border: 0;
+    float:right;
+}
