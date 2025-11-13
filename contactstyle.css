@@ -39,13 +39,15 @@ body{
 }
 #contact_form{
     background-color:rgb(85, 107, 47);
-    margin-top:100px;
-    margin-left:200px;
-    margin-right:200px;
+    margin-top:150px;
+    margin-left:550px;
+    margin-right:550px;
     color:rgb(255,248,220);
     font-size:20px;
     border-radius:5px;
-    padding:10px 0px 20px 10px;
+    padding:20px 10px 20px 10px;
+    height:250px;
+
 }
 input{
     width:300px;
@@ -59,8 +61,9 @@ input[type="submit"]{
     
 }
 .map-box{
-    width:300px;
-    height:250px;
+    width:250px;
+    height:225px;
     border: 0;
     float:right;
+    border-radius:5px;
 }

@@ -49,11 +49,13 @@ td {
 .Items{
   display:flex;
   justify-content:space-between;
-  background-color:rgba(216, 212, 212, 0.808);
+  background-color:rgb(255,248,220);
   margin-right:100px;
   margin-left:100px;
   color:rgb(85, 107, 47);
   border-radius:10px;
+  padding-left:20px;
+  padding-right:20px;
 }
 h2{
   text-align:center;
