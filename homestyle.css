@@ -39,7 +39,6 @@ ul li a:hover {
 }
 
 
-
 body{
   margin:0;
   padding:0;
@@ -52,42 +51,17 @@ body{
   width:100%;
 }
 
-/*#about{ 
-  height:100vh;
-  width:100%;
-  background-color:rgb(85,107,47);
-  margin-top:0;
-  padding-top:50px;
-  padding-bottom:50px;
+
+.footer_items{
+  display:flex;
+  justify-content:flex-start;
+  gap:40px;
+  background-color:rgb(85, 107, 47);
 }
-#history{
-  margin-top:0;
-  background-color:gray;
+#footer p{
+  margin-bottom:0px;
+  line-height:8px;
 }
-  <section>
-                <div id = "about">
-                <!--<h2 id = "about_heading">History</h2>-->
-                    <p id = "history">Tasty’s 
-                        began in the early 1980s when two friends opened 
-                        a small sandwich shop with a simple goal — to serve fresh, 
-                        homemade sandwiches in a friendly, welcoming space. Over the years, 
-                        it became a local favorite known for its cozy booths, warm service, and 
-                        the smell of toasted bread filling the air. Today, Tasty’s still holds 
-                        that same charm with an updated menu featuring both classic and modern sandwiches, a 
-                        relaxed atmosphere, and a loyal community of regulars who keep coming back for 
-                        good food and good company.
-                    </p>
-                </div>
-                <div id = "gallery">
-                    <img src = "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/85/01/6e/what-a-diner-should-look.jpg?w=900&h=500&s=1" div = "slideshow">
-                </div>
-            </section>
-            
-
-
-
-*/
-
 
 
 
