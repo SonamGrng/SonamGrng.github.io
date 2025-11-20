@@ -25,17 +25,22 @@ ul li a:hover {
 
 
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-body{
-  margin:0;
-  padding:0;
+body {
+  display: flex;
+  flex-direction: column;
   background-image: url("https://images.pexels.com/photos/1603901/pexels-photo-1603901.jpeg?cs=srgb&dl=pexels-rajesh-tp-749235-1603901.jpg&fm=jpg");
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  margin-bottom:0;
-  height:100vh;
-  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_content {
+  flex: 1;
 }
 #contact_form{
     background-color:rgb(85, 107, 47);
@@ -66,4 +71,33 @@ input[type="submit"]{
     border: 0;
     float:right;
     border-radius:5px;
+}
+footer{
+  margin-top:auto;
+}
+.footer_items {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  background-color: rgb(85, 107, 47);
+  padding-left:15px;
+  padding-bottom:15px;
+  color:blanchedalmond;
+}
+
+
+#footer p {
+  margin-bottom: 0px;
+  line-height: 5px;
+  font-family:'Georgia', serif;
+  font-size:13px;
+
+}
+#footer h2{
+  font-size:18px;
+  text-align:left;
+}
+
+a{
+  color:burlywood;
 }
