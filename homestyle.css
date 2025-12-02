@@ -74,7 +74,7 @@ ul li a:hover {
 a{
   color:burlywood;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   ul {
     flex-direction: column;
     align-items:center;
