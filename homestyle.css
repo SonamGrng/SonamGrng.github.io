@@ -52,7 +52,9 @@ ul li a:hover {
   font-size: 10em;
 }
 
-
+footer{
+  width:100%;
+}
 .footer_items {
   display: flex;
   justify-content: flex-start;
@@ -83,6 +85,13 @@ a{
     flex-direction: column;
     align-items:center;
   }
+  #logo {
+  margin-top: 250px;
+  color: rgb(255,248,220);
+  text-align: left;
+  font-size: 7em;
+}
+  
 
 }
 
