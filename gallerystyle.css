@@ -47,6 +47,7 @@ body {
   align-items: center; /* centers horizontally */
   gap: 40px; /* space between slideshow and about section */
   padding: 40px 0;
+  background-color:rgb(85, 107, 47);
 }
 
 /* Center the slideshow container */
