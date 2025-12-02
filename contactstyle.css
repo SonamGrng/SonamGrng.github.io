@@ -33,7 +33,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
-  background-color:blanchedalmond;
+  background-color:rgb(85, 107, 47);
 }
 
 .main_content {
@@ -84,6 +84,7 @@ input[type="submit"]{
 input[type="submit"]{
     width:100px;
     margin-top:10px;
+    color: rgb(85, 107, 47);
     
 }
 .map-box{
