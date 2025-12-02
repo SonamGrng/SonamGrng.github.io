@@ -12,6 +12,7 @@ ul {
   background-color: #333333;
   display: flex;
   background-color: rgb(85, 107, 47);
+  width:100%;
 
 }
 
@@ -67,6 +68,7 @@ h2{
 
 footer{
   margin-top:auto;
+  width:100%
 }
 .footer_items {
   display: flex;
