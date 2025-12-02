@@ -33,6 +33,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
+  background-color:rgb(85, 107, 47);
 }
 
 .main_content {
@@ -111,6 +112,14 @@ a{
     flex-direction: column;
     align-items:center;
   }
+  #title{
+    display:none;
+  }
+ .items{
+  margin-left:50px;
+  margin-right:50px;
+  height:300px;
+ }
 
 }
 
