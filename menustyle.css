@@ -115,10 +115,11 @@ a{
   #title{
     display:none;
   }
- .items{
+ .Items{
   width:100%;
   height:250px;
-  margin:0 0 0 0;
+  margin:0;
+  border-radius:0;
  }
 
 }
