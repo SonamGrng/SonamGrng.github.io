@@ -67,7 +67,20 @@ export function CartProvider({ children }){
         if (cancelled) return
         setCartId(id)
 
-        const res = await fetch(`/api/cart/${id}`)
+        // Try to load the existing cart. If it no longer exists (e.g., DB changed),
+        // create a fresh cart and retry so checkout always works.
+        let res = await fetch(`/api/cart/${id}`)
+        if (res.status === 404){
+          localStorage.removeItem(CART_ID_KEY)
+          const created = await fetch('/api/cart', { method: 'POST' })
+          if (!created.ok) throw new Error('Failed to create cart')
+          const json = await created.json()
+          id = json.cartId
+          localStorage.setItem(CART_ID_KEY, id)
+          if (cancelled) return
+          setCartId(id)
+          res = await fetch(`/api/cart/${id}`)
+        }
         if (!res.ok) throw new Error('Failed to load cart')
         const data = await res.json()
         // backend returns items array; normalize into { [name]: {price, qty} }

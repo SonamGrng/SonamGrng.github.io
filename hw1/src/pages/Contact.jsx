@@ -34,7 +34,7 @@ export default function Contact(){
               </button>
 
               <p className="text-muted mb-0" style={{ fontSize: 12 }}>
-                (This form is a UI mock — no backend required for Homework 3.)
+                (This form is a UI mock — not connected to email.)
               </p>
             </form>
           </div>
