@@ -1,0 +1,28 @@
+{
+  "name": "tastys-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "npm --prefix backend run dev",
+    "seed": "npm --prefix backend run seed",
+    "dev:full": "concurrently -n SERVER,WEB -c auto \"npm run server\" \"npm run dev\"",
+    "postinstall": "npm --prefix backend install"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^9.0.1",
+    "vite": "^5.4.10"
+  }
+}

@@ -1,0 +1,57 @@
+:root{
+  --tastys-green: rgb(85, 107, 47);
+  --tastys-cream: rgb(255,248,220);
+  --tastys-cream-2: rgb(245, 238, 205);
+}
+
+body{
+  min-height:100vh;
+  background-image:url("https://images.pexels.com/photos/1603901/pexels-photo-1603901.jpeg?cs=srgb&dl=pexels-rajesh-tp-749235-1603901.jpg&fm=jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color: var(--tastys-green);
+}
+
+a{ color: burlywood; }
+
+.tastys-surface{
+  background: rgba(255,248,220, 0.98);
+  border-radius: 14px;
+}
+
+.tastys-title{
+  color: var(--tastys-cream);
+}
+
+.footer{
+  background: var(--tastys-green);
+  color: blanchedalmond;
+}
+
+.footer p{
+  margin-bottom: 0;
+  line-height: 1.1;
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+.footer h2{
+  font-size: 18px;
+  text-align: left;
+}
+
+.menu-item-row{
+  cursor:pointer;
+}
+.menu-item-row:hover{
+  background-color: rgba(85, 107, 47, 0.12);
+}
+
+.cart-item{
+  background: var(--tastys-cream-2);
+  border-radius: 14px;
+}
+.cart-item:hover{
+  background: rgb(235, 228, 195);
+}
